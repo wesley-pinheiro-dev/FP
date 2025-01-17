@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+header {
+   position: fixed;
+   left: 50%;
+   transform: translateX(-50%);
+   display: grid;
+   grid-template-columns: 1fr 600px;
+   gap: 50px;
+    & img{
+        width: 250px;
+    }
+}
